@@ -5,3 +5,4 @@ prompt pure
 autoload -Uz compinit && compinit
 
 source /usr/share/fzf/shell/key-bindings.zsh
+source ~/.profile
