@@ -9,6 +9,7 @@
   template = ~/.git-commit-template
 [core]
   editor = vim
+  pager = diff-so-fancy | less --tabs=4 -RFX
 [pull]
   rebase = true
 [rerere]
