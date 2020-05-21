@@ -1,26 +1,29 @@
-# <type>: (this commit will...) <subject>
-# Do not capitalize, use the imperative mood, do not end with a period
+# TITLE
+# Begin with a capitalized verb,  use the imperative mood, do not end with a period
 # |<----  Using a Maximum Of 50 Characters  ---->|
+# If applied, this commit will ...
 
-# Explain what and why this change is being made (not how)
-# Can use multiple lines with "-" for bullet points in body
 # Separate subject from body with a blank line
 
+# BODY
+# Explain what and why this change is being made (not how)
+# Tell a story
+# Can use multiple lines with "-" for bullet points in body
 # |<----   Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
+# Why is this change needed?
+Prior to this change,
 
+# How does it address the issue?
+This change
+
+# FOOTER
 # Provide links or keys to any relevant tickets, articles or other resources
-# Example: Github issue #23
 
-# --- COMMIT END ---
+# COMMIT END
 
-# Type can be
-#    feat     (new feature)
-#    fix      (bug fix)
-#    refactor (refactoring production code)
-#    style    (formatting, missing semi colons, etc; no code change)
-#    docs     (changes to documentation)
-#    test     (adding or refactoring tests; no production code change)
-#    chore    (updating grunt tasks etc; no production code change)
-#
-# For more information about this template, check out
-# https://gist.github.com/adeekshith/cd4c95a064977cdc6c50
+# Sources for this template :
+# - https://chris.beams.io/posts/git-commit
+# -  https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+# - https://dhwthompson.com/2019/my-favourite-git-commit
+# - https://blog.mocoso.co.uk/talks/2015/01/12/telling-stories-through-your-commits/
+# - https://codeinthehole.com/tips/a-useful-template-for-commit-messages/
