@@ -7,3 +7,4 @@
 * [rg](https://github.com/BurntSushi/ripgrep) : a better `grep`
 * [tldr](https://tldr.sh/) : Simplified and community-driven man pages with practical examples
 * [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) : human readable git diff
+* [tig](https://github.com/jonas/tig): text-mode interface for Git
