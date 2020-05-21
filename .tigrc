@@ -1,0 +1,17 @@
+# Add commit hash in main view
+set diff-options = --show-signature
+
+# Short date
+set main-view-date = custom
+set main-view-date-format = "%Y-%m-%d %H:%M"
+
+# Automatically refresh after a command
+set refresh-mode = after-command
+
+# Rebase
+bind main R !git rebase -i %(commit)^
+bind diff R !git rebase -i %(commit)^
+
+# Fixup
+bind main F !git commit --fixup %(commit)
+bind diff F !git commut --fixup %(commit)
