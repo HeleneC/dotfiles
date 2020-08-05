@@ -4,6 +4,10 @@ prompt pure
 
 autoload -Uz compinit && compinit
 
+# Completion for kitty
+# https://sw.kovidgoyal.net/kitty/
+kitty + complete setup zsh | source /dev/stdin
+
 # History setup
 HISTSIZE=1000
 SAVEHIST=1000
