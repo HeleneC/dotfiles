@@ -19,3 +19,7 @@ source ~/.profile
 # load Monoid font
 # https://larsenwork.com/monoid/
 source ~/.fonts/*.sh
+
+# added by Nix installer
+# https://nixos.org/
+if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile.d/nix.sh; fi
