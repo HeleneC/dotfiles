@@ -15,3 +15,7 @@ HISTFILE=~/.zsh/.history
 
 source /usr/share/fzf/shell/key-bindings.zsh
 source ~/.profile
+
+# load Monoid font
+# https://larsenwork.com/monoid/
+source ~/.fonts/*.sh
