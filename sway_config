@@ -90,6 +90,9 @@ input "*" {
     # Control screen brightness
     bindsym XF86MonBrightnessDown exec light -U 10
     bindsym XF86MonBrightnessUp exec light -A 10
+
+    # Lock screen
+    bindsym $mod+Ctrl+l exec /usr/local/bin/lock
 #
 # Moving around:
 #
