@@ -23,3 +23,7 @@ source ~/.fonts/*.sh
 # added by Nix installer
 # https://nixos.org/
 if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile.d/nix.sh; fi
+
+# enable zsh-syntax-highlighting
+# https://github.com/zsh-users/zsh-syntax-highlighting
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
