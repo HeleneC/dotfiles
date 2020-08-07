@@ -92,7 +92,7 @@ input "*" {
     bindsym XF86MonBrightnessUp exec light -A 10
 
     # Lock screen
-    bindsym $mod+Ctrl+l exec /usr/local/bin/lock
+    bindsym $mod+Ctrl+l exec swaylock
 #
 # Moving around:
 #
