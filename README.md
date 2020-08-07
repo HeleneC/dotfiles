@@ -1,4 +1,4 @@
-# Dotfiles
+# Dotfiles 
 
 # Stuff to install
 
@@ -9,3 +9,4 @@
 * [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) : human readable git diff
 * [tig](https://github.com/jonas/tig): text-mode interface for Git
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting): syntax highlighting for the shell zsh
+* [ulauncher](https://ulauncher.io/)
