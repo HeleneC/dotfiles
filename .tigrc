@@ -16,7 +16,7 @@ bind diff R !git rebase -i %(commit)^
 bind main F !git commit --fixup %(commit)
 bind diff F !git commut --fixup %(commit)
 
-# Ammend commit
+# Amend commit
 bind status a !?git commit --amend
 
 # Create a new branch
