@@ -5,15 +5,43 @@
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   rbia = rebase -i --autosquash
   ss = status -s
+[branch]
+  sort = -committerdate
+[column]
+  ui = auto
 [commit]
   template = ~/.git-commit-template
+  verbose = true
 [core]
   editor = vim
+  excludesfile = ~/.gitignore
   pager = diff-so-fancy | less --tabs=4 -RFX
+[diff]
+  algorithm = histogram
+  colorMoved = plain
+  mnemonicPrefix = true
+  renames = true
+[fetch]
+  prune = true
+  pruneTags = true
+  all = true
+[help]
+  autocorrect = prompt
 [pull]
   rebase = true
+[push]
+  default = simple
+  autoSetupRemote = true
+  followTags = true
+[rebase]
+  autoSquash = true
+  autoStash = true
+  updateRefs = true
 [rerere]
   enabled = true
+  autoupdate = true
+[tag]
+  sort = version:refname
 [user]
   email = ****
   name = Helene
